@@ -1,0 +1,288 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+.new-class {
+  max-width: 1170px;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: rgba(116, 10, 58, 0.7);
+  text-align: center;
+  padding: 20px 0 20px 0;
+}
+
+.backgroun-yellow {
+  background-color: rgba(236, 252, 3, 0.7);
+}
+
+.backgroun-blue {
+  background-color: rgba(0, 120, 201, 0.7);
+}
+
+.modal {
+  background-color: rgba(0, 255, 255, 0.7);
+}
+
+.triger {
+  margin-top: 30px;
+  background-color: aquamarine;
+}
+
+.grey {
+  color: darkslategrey;
+  font-weight: bold;
+}
+
+.clone {
+  background-color: rgba(153, 102, 255, 0.7);
+}
+
+.closest {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(153, 255, 51, 0.7);
+}
+
+section {
+  max-width: 1920px;
+  width: 100%;
+  height: auto;
+  padding: 50px 0 50px 0;
+}
+
+.winter {
+  background-image: url("../../images/1920-1080.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+h2 {
+  font-size: 60px;
+  color: yellow;
+  text-align: center;
+}
+
+h3 {
+  font-size: 50px;
+  color: black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+h4 {
+  font-size: 25px;
+  color: white;
+}
+
+span {
+  color: blue;
+}
+
+#red {
+  margin: 0 auto;
+  background: #000;
+  width: 200px;
+  height: 70px;
+}
+
+#red ul {
+  display: flex;
+  justify-content: center;
+  margin: 30px 0 30px 0;
+}
+
+#red ul li {
+  list-style-type: none;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 15px;
+}
+
+#red ul li:first-child {
+  margin-left: 0;
+}
+
+#red ul li a {
+  background: red;
+  display: block;
+  width: 40px;
+  height: 40px;
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+#red ul li a.active {
+  background: blue;
+}
+
+.color-green {
+  max-width: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.color-green li {
+  margin-right: 20px;
+}
+.color-green li:last-child {
+  margin-right: 0;
+}
+
+.button {
+  max-width: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.button li {
+  margin-right: 30px;
+}
+.button li:last-child {
+  margin-right: 0;
+}
+.button li h4 {
+  margin-bottom: 30px;
+}
+
+.parent {
+  max-width: 300px;
+  width: 100%;
+}
+.parent li {
+  padding: 10px 0 10px 0;
+  border: 1px solid grey;
+  background-color: white;
+  color: darkblue;
+}
+.parent li:hover {
+  background-color: crimson;
+  color: white;
+}
+
+.green {
+  font-size: 18px;
+  padding: 10px 20px;
+  background-color: green;
+}
+
+.white {
+  background-color: white;
+}
+
+.hover-grey {
+  padding: 30px 40px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+  background-color: black;
+}
+.hover-grey:hover {
+  background-color: gray;
+}
+
+.button-brown {
+  padding: 30px 40px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: white;
+  background-color: brown;
+}
+
+.black {
+  padding: 30px 40px;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: red;
+  background-color: black;
+}
+
+.yellow {
+  background: yellow;
+  margin: 10px;
+  padding: 20px 40px;
+}
+
+.hello {
+  padding: 20px 40px;
+  background-color: orange;
+  color: blue;
+  margin-right: 20px;
+}
+.hello:last-child {
+  margin-right: 0;
+}
+.hello:hover {
+  background-color: aqua;
+}
+
+#window {
+  color: red;
+  font-size: 30px;
+  text-decoration: none;
+}
+#window:hover {
+  color: black;
+}

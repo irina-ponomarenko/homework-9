@@ -1,0 +1,8 @@
+#window{
+  color: red;
+  font-size: 30px;
+  text-decoration: none;
+  &:hover{
+    color: black;
+  }
+}
