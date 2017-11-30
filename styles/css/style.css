@@ -167,6 +167,27 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-top: 20px;
 }
 
+.off {
+  background-color: rgba(102, 153, 255, 0.7);
+}
+.off p {
+  margin: 20px 0 20px 0;
+}
+
+.remove {
+  background-color: rgba(204, 0, 204, 0.7);
+}
+.remove h2 {
+  margin-bottom: 20px;
+}
+
+.resize-window {
+  background-color: rgba(51, 153, 51, 0.7);
+}
+.resize-window p {
+  font-size: 20px;
+}
+
 section {
   max-width: 1920px;
   width: 100%;
@@ -190,13 +211,13 @@ section {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 40px;
   color: yellow;
   text-align: center;
 }
 
 h3 {
-  font-size: 50px;
+  font-size: 30px;
   color: black;
   text-align: center;
   margin-bottom: 30px;
@@ -434,6 +455,24 @@ span {
 #click {
   background-color: aqua;
   margin-top: 20px;
+}
+
+#offclick {
+  background-color: yellow;
+  padding: 10px;
+}
+
+#property {
+  background-color: crimson;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+#res {
+  margin: 20px 0 20px 0;
+  background-color: azure;
+  padding: 10px 20px;
 }
 
 #window {

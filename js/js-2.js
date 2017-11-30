@@ -46,6 +46,38 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('#click').click(function () {
         alert($('.listindex #goodby').index());
-    })
-
-})
+    });
+});
+$(document).ready(function () {
+    $('.off p').on("click", function () {
+        $(this).css("background-color","pink");
+    });
+    $('#offclick').click(function () {
+        $('.off p').off("click");
+    });
+});
+$(document).ready(function () {
+    $('#property').click(function () {
+        var $x = $('.div');
+        $x.prop('color', '6699ff');
+        $x.append('Свойство цвета имеет такое значение:' + $x.prop('color'));
+        $x.removeProp('color');
+        $x.append('<br>Сейчас значение свойства цвет:'+$x.prop('color'));
+    });
+});
+$(document).ready(function () {
+    $('#clickBtn').click(function () {
+        $(this).next().removeAttr('disabled')
+            .focus()
+            .val('Можно редактировать');
+    });
+});
+$(document).ready(function () {
+    $('#res').click(function () {
+        $(window).resize();
+    });
+    $(window).resize(function () {
+        var width =$(window).width();
+        $('.paste').html(width);
+    });
+});
