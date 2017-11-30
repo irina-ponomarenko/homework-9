@@ -70,3 +70,39 @@ $(document).ready(function () {
    console.log ($(this).closest(".parent"));
   });
 });
+$(document).ready(function() {
+    $('.each button').click(function() {
+        var content = $('.each button').map(function () {
+            return $(this).text();
+        }).get();
+        console.log(content);
+    });
+});
+$(document).ready(function () {
+    $(".button-find").click(function () {
+        $("body").find(this);
+        console.log(this);
+    });
+});
+$(document).ready(function(){
+    $('.fade').click(function () {
+        $('.none').fadeIn(2000);
+    });
+});
+$(document).ready(function () {
+    $('.fade-2').click(function () {
+        $('.clicknone').fadeOut(2000);
+    });
+});
+$(document).ready(function () {
+    $('.hide').click(function () {
+        $('.hideof').hide(1000);
+    });
+    $('.show').click(function () {
+        $('.hideon').show(1000);
+    });
+});
+$(document).ready(function () {
+    $('.dataAboutMe').click(function () {
+    });
+});

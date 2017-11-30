@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/css/style.css" rel="stylesheet"/>
+    <title>Задачки по jQuery-2</title>
+</head>
+<body>
+<section class="spring">
+<div class="new-class">
+    <h2>Метод .data() получаем данные по ключу "blah"</h2>
+    <div class="dataelements">
+        <button class="click">Get "blah" from the div</button>
+        <button  class="click">Set "blah" to "hello"</button>
+        <button  class="click">Set "blah" to 86</button>
+        <button  class="click">Remove "blah" from the div</button>
+        <p>The "blah" value of this div is <span>?</span></p>
+    </div>
+</div>
+    <div class="new-class detach-1">
+        <h2>Вырезаем с помощью .detach() абзац</h2>
+        <p class="stroke-1">Люблю грозу в начале мая,
+            Когда весенний, первый гром,
+            Как бы резвяся и играя,
+            Грохочет в небе голубом.</p>
+        <p class="stroke-2">Гремят раскаты молодые,
+            Вот дождик брызнул, пыль летит,
+            Повисли перлы дождевые,
+            И солнце нити золотит.</p>
+        <button id="cut">Вырезать</button>
+    </div>
+    <div class="new-class">
+        <h2>С помощью .eq(), елементу с индексом 2 добавляем клас с цветом</h2>
+        <div class="colors">
+            <div class="new-color"></div>
+            <div class="new-color"></div>
+            <div class="new-color"></div>
+            <div class="new-color"></div>
+        </div>
+    </div>
+    <div class="new-class rewrite">
+        <h2>Узнаем какой класс имеет абзац с помощью .hasClass()</h2>
+        <p class="value-1">С горы бежит поток проворный,
+            В лесу не молкнет птичий гам,
+            И гам лесной, и шум нагорный-
+            Все вторит весело громам.</p>
+        <button type="submit" id="but1">Узнать имеет ли абзац класс с именем value-1</button>
+        <button type="submit" id="but2">Узнать имеет ли абзац класс с именем value-2</button>
+    </div>
+    <div class="new-class openhtml">
+        <h2>Преобразуем текст в html при клике по параграфу с помощью.html()</h2>
+        <p><b>Ты скажешь:</b> <span id="teg">ветреная Геба,</span>
+            <i>Кормя Зевесова орла,</i>
+            <b>Громокипящий кубок с неба,</b>
+            <a>Смеясь, на землю пролила.</a></p>
+        <p  class="chenge">Автор: Ф.И. Тютчев</p>
+    </div>
+    <div class="new-class listindex">
+        <h2>Узнать позицию элемента с id=goodby  с помощью .index()</h2>
+        <ul>
+            <li id="hello">Hello</li>
+            <li id="kuku">KuKu</li>
+            <li id="goodby">Goodby</li>
+            <button type="submit" id="click">Узнать позицию элемента с id=goodby</button>
+        </ul>
+    </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/js-2.js"></script>
+</body>
+</html>

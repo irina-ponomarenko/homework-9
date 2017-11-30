@@ -34,3 +34,60 @@
   align-items: center;
   background-color: rgba(153, 255, 51,0.7);
 }
+.button-each{
+  background-color: rgba(255, 102, 255, 0.7);
+}
+.find{
+  background-color: rgba(255, 255, 153, 0.7);
+}
+.fadein{
+  background-color: rgba(153, 153, 255, 0.7);
+}
+.click-on-off{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.data{
+  background-color: rgba(0, 102, 153,0.7);
+}
+.dataelements{
+  background-color: aquamarine;
+  padding: 20px 0 20px 0;
+}
+.detach-1{
+  background-color: rgba(255, 102, 204, 0.7);
+  p{
+    font-size: 18px;
+    margin: 20px 0 20px 0;
+  }
+}
+.colors{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+.new-color {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border: 2px solid blue;
+}
+.blue{
+  background: blue;
+}
+.rewrite{
+  background-color: rgba(204, 255, 204,0.7);
+  button{
+    padding: 10px;
+    background-color: #cccccc;
+    margin-top: 20px;
+  }
+}
+.openhtml{
+  background-color: rgba(255, 204, 102, 0.7);
+  p{
+    margin-top: 20px;
+  }
+}

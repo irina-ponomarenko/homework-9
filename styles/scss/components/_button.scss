@@ -47,3 +47,37 @@
     background-color: aqua;
   }
 }
+.each{
+  button{
+    padding: 10px 20px ;
+  }
+}
+.button-find, .fade, .fade-2,.hide, .show, .dataAboutMe{
+  padding: 10px 20px;
+  background-color: aquamarine;
+
+}
+.click-on-off{
+  button{
+    margin-left: 30px;
+    margin-right: 30px;
+    &:last-child{
+      margin-right: 0;
+    }
+    &:first-child{
+      margin-left: 0;
+    }
+  }
+}
+.click{
+  padding: 10px 20px;
+  background-color: antiquewhite;
+}
+#cut{
+  padding: 10px 20px;
+  background-color: azure;
+}
+#click{
+  background-color: aqua;
+  margin-top: 20px;
+}

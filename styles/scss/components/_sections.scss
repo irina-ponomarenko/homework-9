@@ -2,11 +2,18 @@ section{
   max-width: 1920px;
   width: 100%;
   height: auto;
+  margin: 0 auto;
   padding: 50px 0 50px 0;
 }
 .winter{
   background-image: url("../../images/1920-1080.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+.spring{
+  background-image: url("../../images/spring.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }

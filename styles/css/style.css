@@ -98,10 +98,80 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   background-color: rgba(153, 255, 51, 0.7);
 }
 
+.button-each {
+  background-color: rgba(255, 102, 255, 0.7);
+}
+
+.find {
+  background-color: rgba(255, 255, 153, 0.7);
+}
+
+.fadein {
+  background-color: rgba(153, 153, 255, 0.7);
+}
+
+.click-on-off {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.data {
+  background-color: rgba(0, 102, 153, 0.7);
+}
+
+.dataelements {
+  background-color: aquamarine;
+  padding: 20px 0 20px 0;
+}
+
+.detach-1 {
+  background-color: rgba(255, 102, 204, 0.7);
+}
+.detach-1 p {
+  font-size: 18px;
+  margin: 20px 0 20px 0;
+}
+
+.colors {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.new-color {
+  width: 60px;
+  height: 60px;
+  margin: 10px;
+  border: 2px solid blue;
+}
+
+.blue {
+  background: blue;
+}
+
+.rewrite {
+  background-color: rgba(204, 255, 204, 0.7);
+}
+.rewrite button {
+  padding: 10px;
+  background-color: #cccccc;
+  margin-top: 20px;
+}
+
+.openhtml {
+  background-color: rgba(255, 204, 102, 0.7);
+}
+.openhtml p {
+  margin-top: 20px;
+}
+
 section {
   max-width: 1920px;
   width: 100%;
   height: auto;
+  margin: 0 auto;
   padding: 50px 0 50px 0;
 }
 
@@ -109,6 +179,13 @@ section {
   background-image: url("../../images/1920-1080.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
+}
+
+.spring {
+  background-image: url("../../images/spring.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
 }
 
@@ -132,6 +209,35 @@ h4 {
 
 span {
   color: blue;
+}
+
+.none, .clicknone, .hideof, .hideon {
+  color: red;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 15px;
+  display: none;
+}
+
+.clicknone {
+  display: block;
+}
+
+.hideof {
+  display: block;
+}
+
+.value-1 {
+  margin-top: 20px;
+}
+
+.chenge {
+  margin: 20px 0 20px;
+  color: red;
+}
+
+#teg {
+  color: #000;
 }
 
 #red {
@@ -222,6 +328,23 @@ span {
   color: white;
 }
 
+.listindex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.listindex ul {
+  max-width: 200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.listindex ul li {
+  padding: 10px;
+  height: auto;
+  background-color: white;
+  border: 1px solid grey;
+}
+
 .green {
   font-size: 18px;
   padding: 10px 20px;
@@ -276,6 +399,41 @@ span {
 }
 .hello:hover {
   background-color: aqua;
+}
+
+.each button {
+  padding: 10px 20px;
+}
+
+.button-find, .fade, .fade-2, .hide, .show, .dataAboutMe {
+  padding: 10px 20px;
+  background-color: aquamarine;
+}
+
+.click-on-off button {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.click-on-off button:last-child {
+  margin-right: 0;
+}
+.click-on-off button:first-child {
+  margin-left: 0;
+}
+
+.click {
+  padding: 10px 20px;
+  background-color: antiquewhite;
+}
+
+#cut {
+  padding: 10px 20px;
+  background-color: azure;
+}
+
+#click {
+  background-color: aqua;
+  margin-top: 20px;
 }
 
 #window {

@@ -16,3 +16,26 @@ h4{
 span{
   color: blue;
 }
+.none, .clicknone, .hideof, .hideon{
+  color: red;
+  font-weight: 700;
+  font-size: 40px;
+  margin-top: 15px;
+  display: none;
+}
+.clicknone{
+  display: block;
+}
+.hideof{
+  display: block;
+}
+.value-1{
+  margin-top: 20px;
+}
+.chenge{
+  margin: 20px 0 20px;
+  color:red;
+}
+#teg{
+  color: #000;
+}
