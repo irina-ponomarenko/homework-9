@@ -109,3 +109,33 @@
     font-size: 20px;
   }
 }
+#target{
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+  background-color: azure;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+.textTop{
+  background-color: rgba(51, 51, 0, 0.7);
+}
+.conteinerList, .conteinerList-2{
+  margin: 0 auto;
+  background-color: darkred;
+  max-width: 150px;
+  width: 100%;
+  padding-top: 10px;
+}
+.slideAction{
+  background-color: rgba(153, 153, 102, 0.7);
+  h2{
+    margin-bottom: 20px;
+  }
+}
+.slideAction-2{
+  background-color: rgba(204, 255, 102, 0.7);
+  h2{
+    margin-bottom: 20px;
+  }
+}

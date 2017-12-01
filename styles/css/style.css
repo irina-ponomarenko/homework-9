@@ -188,6 +188,41 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   font-size: 20px;
 }
 
+#target {
+  width: 200px;
+  height: 100px;
+  overflow: scroll;
+  background-color: azure;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.textTop {
+  background-color: rgba(51, 51, 0, 0.7);
+}
+
+.conteinerList, .conteinerList-2 {
+  margin: 0 auto;
+  background-color: darkred;
+  max-width: 150px;
+  width: 100%;
+  padding-top: 10px;
+}
+
+.slideAction {
+  background-color: rgba(153, 153, 102, 0.7);
+}
+.slideAction h2 {
+  margin-bottom: 20px;
+}
+
+.slideAction-2 {
+  background-color: rgba(204, 255, 102, 0.7);
+}
+.slideAction-2 h2 {
+  margin-bottom: 20px;
+}
+
 section {
   max-width: 1920px;
   width: 100%;
@@ -259,6 +294,16 @@ span {
 
 #teg {
   color: #000;
+}
+
+.top {
+  width: 300px;
+  height: 180px;
+  overflow: scroll;
+  background-color: azure;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 #red {
@@ -364,6 +409,24 @@ span {
   height: auto;
   background-color: white;
   border: 1px solid grey;
+}
+
+.allList, .allList-2 {
+  display: none;
+}
+.allList ul li, .allList-2 ul li {
+  padding: 10px 0 10px 0;
+  border: 1px solid red;
+}
+.allList ul li:hover, .allList-2 ul li:hover {
+  background-color: #cccccc;
+}
+.allList ul li a, .allList-2 ul li a {
+  text-decoration: none;
+  color: white;
+}
+.allList ul li a:hover, .allList-2 ul li a:hover {
+  color: black;
 }
 
 .green {

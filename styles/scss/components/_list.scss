@@ -119,3 +119,22 @@
     }
   }
 }
+.allList, .allList-2{
+  display: none;
+  ul{
+    li{
+      padding: 10px 0 10px 0;
+      border: 1px solid red;
+      &:hover {
+        background-color: #cccccc;
+      }
+      a{
+        text-decoration: none;
+        color: white;
+        &:hover{
+          color: black;
+        }
+      }
+    }
+  }
+}

@@ -81,3 +81,27 @@ $(document).ready(function () {
         $('.paste').html(width);
     });
 });
+$(document).ready(function(){
+    $("#target").scroll(function(){
+        alert("Вы прокрутили содержимое данного окна.");
+    });
+});
+$(document).ready(function () {
+    $('.clickTop').click(function () {
+        var s = $('.top').scrollTop();
+        $('.result').text("scrollTop = " + s);
+    });
+});
+$(document).ready(function () {
+    $('.conteinerList .arrow').click(function () {
+        $('.allList').slideDown('slow');
+    });
+    $('.conteinerList').mouseleave(function () {
+        $('.allList').slideUp('fast');
+    });
+});
+$(document).ready(function () {
+    $('.arrow-2').click(function () {
+        $(".allList-2").slideToggle("slow");
+    });
+});
