@@ -260,6 +260,13 @@ section {
   background-position: center;
 }
 
+.summer {
+  background-image: url("../../images/summer.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 h2 {
   font-size: 40px;
   color: yellow;
