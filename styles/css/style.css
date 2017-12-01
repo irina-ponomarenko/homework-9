@@ -223,6 +223,21 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   margin-bottom: 20px;
 }
 
+.classForm form {
+  padding: 30px;
+  margin: 0 auto;
+  max-width: 600px;
+  width: 100%;
+  text-align: left;
+  background-color: azure;
+}
+.classForm form button {
+  margin: 20px 0 20px 0;
+}
+.classForm form input {
+  margin: 10px 0 10px 0;
+}
+
 section {
   max-width: 1920px;
   width: 100%;
@@ -261,6 +276,10 @@ h3 {
 h4 {
   font-size: 25px;
   color: white;
+}
+
+h5 {
+  margin: 20px 0 20px 0;
 }
 
 span {

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="styles/css/style.css" rel="stylesheet"/>
+    <title>Form</title>
+</head>
+<body>
+<section class="sammer">
+    <div class="new-class classForm">
+            <form action="" id="contacs">
+                <fieldset>
+                    <legend>
+                        Коротко о себе:
+                    </legend>
+                    <input type="radio" name="Sex" value="Мужской" checked="checked" id="man"/>
+                    <small>Молодой человек</small><br />
+                    <input type="radio" name="Sex" value="Женский" id="woman" /> <small>Девушка</small><br />
+                    <input type="text" size="20" name="birthday" id="date"/> <small>Дата рождения</small><br />
+                    <input type="text" size="20"  name ="meried" id="meried"/> <small>Семейное положение</small><br />
+                    <input type="text" size="20" name="status" id="status"/> <small>Социальный статус</small><br />
+                    <input type="text" size="20" name="lived" id="lived"/> <small>Местожительство</small><br />
+                    <input type="text" size="20" name="country" id="country"/> <small>Страна</small><br />
+                    <div class="selects">
+                        <h5>Какие домашнте животные у вас есть?</h5>
+                        <select>
+                            <option value="cat" id="cat">Кошка</option>
+                            <option value="dog" id="dog">Собака</option>
+                            <option value="birds" id="birds">Попугай</option>
+                            <option value="mouse" id="mouse">Мыши</option>
+                            <option value="other" id="other">Другое</option>
+                        </select>
+                        <h5>Какая марка техники больше нравится, и предпочитаете?</h5>
+                        <select>
+                            <option value="Sony" id="Sony">Sony</option>
+                            <option value="Toshiba" id="Toshiba">Toshiba</option>
+                            <option value="Acer" id="Acer">Acer</option>
+                            <option value="Asus" id="Asus">Asus</option>
+                        </select>
+                    </div>
+                <div class="checkbox">
+                    <h5>Что предпочитаете, когда путешествуете?</h5>
+                <input type="checkbox" name="transport" value="airplane" checked="checked"  id="airplane"/> Самолет<br />
+                <input type="checkbox" name="transport" value="train" id="train"/> Поезд<br />
+                <input type="checkbox" name="transport" value="car" id="car"/> Автомобиль<br />
+                <input type="checkbox" name="transport" value="bus" id="bus"/> Автобус<br />
+                </div>
+                    <button type="submit" id="get">Отправить</button>
+                </fieldset>
+        </form>
+    </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="js/js-3.js"></script>
+</body>
+</html>

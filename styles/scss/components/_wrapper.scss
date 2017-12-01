@@ -139,3 +139,19 @@
     margin-bottom: 20px;
   }
 }
+.classForm{
+  form{
+    padding: 30px;
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100%;
+    text-align: left;
+    background-color: azure;
+    button{
+      margin: 20px 0 20px 0;
+    }
+    input{
+      margin: 10px 0 10px 0;
+    }
+  }
+}

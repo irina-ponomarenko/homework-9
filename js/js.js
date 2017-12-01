@@ -102,7 +102,9 @@ $(document).ready(function () {
         $('.hideon').show(1000);
     });
 });
-$(document).ready(function () {
-    $('.dataAboutMe').click(function () {
+$(document).ready(function() {
+    $(".dataAboutMe").load(function() {
+        var height = $(this).height();
+        var width = $(this).width();
     });
 });
