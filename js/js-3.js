@@ -1,8 +1,18 @@
 $(document).ready(function () {
-    $('input, button, select').on('change', function () {
+    $('input').on('input', function () {
         console.log($(this).val());
     });
+
+    $('select, [type="radio"], [type="checkbox"]').on('change', function () {
+        console.log($(this).val());
+    });
+
+    $('form').on('submit', function(e){
+        e.preventDefault();
+        console.log('Form submited')
+    });
 });
+
 $(document).ready(function () {
     $('form').submit(function() {
         $(":submit", this).attr("disabled", "disabled");

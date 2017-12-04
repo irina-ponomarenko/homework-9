@@ -103,8 +103,8 @@ $(document).ready(function () {
     });
 });
 $(document).ready(function() {
-    $(".dataAboutMe").load(function() {
-        var height = $(this).height();
-        var width = $(this).width();
+    $('.dataAboutMe').click(function () {
+        console.log($(this));
+
     });
 });
